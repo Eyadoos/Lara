@@ -1,5 +1,4 @@
 # Composer and npm dependencies
-/vendor
 /node_modules
 
 # Text file containing information about the current branch
