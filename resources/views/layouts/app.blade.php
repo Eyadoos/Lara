@@ -12,6 +12,19 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "cca8ffad-76b2-451a-beff-06c38144f533",
+                notifyButton: {
+                    enable: true,
+                },
+            });
+            OneSignal.showNativePrompt();
+        });
+    </script>
 </head>
 <body>
     <div id="app">

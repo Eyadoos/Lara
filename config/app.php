@@ -188,6 +188,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Orangehill\Iseed\IseedServiceProvider::class,
+        Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider::class
     ],
 
     /*
@@ -242,9 +243,9 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Input' => Illuminate\Support\Facades\Input::class,
         'Roles' => \Lara\utilities\RoleUtility::class,
-
+        'PushNotification' => Davibennun\LaravelPushNotification\Facades\PushNotification::class
     ],
-    
+
     // development
     'faker_locale' => 'de_DE',
 

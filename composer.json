@@ -41,7 +41,9 @@
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.8.0",
-        "rap2hpoutre/laravel-log-viewer": "^0.8.1"
+        "rap2hpoutre/laravel-log-viewer": "^0.8.1",
+        "davibennun/laravel-push-notification": "dev-laravel5"
+
     },
     "require-dev": {
         "doctrine/dbal": "^2.9",
